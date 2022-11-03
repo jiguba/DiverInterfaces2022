@@ -1,35 +1,37 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Slider))]
+
 public class OxygenBar : MonoBehaviour
 {
-
     private Slider slider;
     public InformationManager iM;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        slider = GetComponent<Slider>();
-        SetMaxOxygenLevel(iM.GetMaxOxygenLevel());
+        slider = this.GetComponent<Slider>();
+        setMaxOxygenLevel(iM.GetMaxOxygenLevel());
     }
 
-    public void SetMaxOxygenLevel (float maxLevel)
+    public void setMaxOxygenLevel(float maxLevel)
     {
         slider.maxValue = maxLevel;
         slider.value = maxLevel; // Start with max!
     }
 
-    public void SetOxygenLevel (float level)
+    public void setOxygenLevel(float level) 
     {
         slider.value = level;
     }
 
+    // Update is called once per frame
     private void Update()
     {
-        SetOxygenLevel(iM.GetOxygenLevel());
+        setOxygenLevel(iM.GetOxygenLevel());
     }
 }

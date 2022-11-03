@@ -1,11 +1,12 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HitFloorCollider : MonoBehaviour
+public class HitFloorV2 : MonoBehaviour
 {
-
     Renderer ballRenderer;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -22,8 +23,9 @@ public class HitFloorCollider : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        // Turn blue.
-        // Debug.Log("I hit " + collision.gameObject.name);
+        //Turn blue
+        //Debug.Log("I hit " + collision.gameObject.name);
+
         if (collision.gameObject.name == "Floor")
         {
             ballRenderer.material.color = Color.blue;
@@ -35,8 +37,8 @@ public class HitFloorCollider : MonoBehaviour
 
     private void OnCollisionExit(Collision collision)
     {
-        // Turn red.
-        //ballRenderer.material.color = Color.red;
+        //Turn red
+        ballRenderer.material.color = Color.red;
     }
 
     private void OnTriggerEnter(Collider other)

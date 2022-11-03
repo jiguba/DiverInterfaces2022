@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class CrewmateNames : MonoBehaviour
 {
 
-    public CallTowerManager ctm;
     private Text textBox;
+    public CallTowerManager ctm;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +25,7 @@ public class CrewmateNames : MonoBehaviour
         {
             string currName = currCrewmate.name;
             string currPosition = currCrewmate.worldLocation.ToString();
-            crewText = crewText + currName + " "  + currPosition + "\n";
+            crewText = crewText + currName + " " + currPosition + "\n";
         }
 
         textBox.text = crewText;
