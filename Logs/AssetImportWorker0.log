@@ -15,7 +15,7 @@ C:/Users/GubaJ/Coding Projects/DiverInterfaces2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55119
+55594
 Successfully changed project path to: C:/Users/GubaJ/Coding Projects/DiverInterfaces2022
 C:/Users/GubaJ/Coding Projects/DiverInterfaces2022
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/GubaJ/Coding Projects/DiverInterfaces2022
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 172.55 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 1.21 ms.
+Refreshing native plugins compatible for Editor in 139.99 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/GubaJ/Coding Projects/DiverInterfaces2022/Assets
@@ -64,51 +64,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004463 seconds.
+Registered in 0.004614 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 134.20 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 126.94 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.695 seconds
+- Completed reload, in  0.649 seconds
 Domain Reload Profiling:
-	ReloadAssembly (695ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (650ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (523ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (483ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (106ms)
+			SetupTypeCache (98ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (341ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (310ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (134ms)
+				RefreshPlugins (127ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009896 seconds.
+Registered in 0.009205 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\GubaJ\Coding Projects\DiverInterfaces2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\GubaJ\Coding Projects\DiverInterfaces2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 128.59 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 128.55 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -116,126 +116,44 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.78.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.374 seconds
+- Completed reload, in  1.362 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1375ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (1362ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1157ms)
-			LoadAssemblies (91ms)
+		EndReloadAssembly (1148ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (297ms)
+			SetupTypeCache (301ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (637ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (631ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (129ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (298ms)
-				ProcessInitializeOnLoadMethodAttributes (87ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.97 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 6471 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (0.8 MB). Loaded Objects now: 6899.
-Memory consumption went from 259.5 MB to 258.7 MB.
-Total: 11.321700 ms (FindLiveObjects: 2.244300 ms CreateObjectMapping: 0.924400 ms MarkObjects: 7.721600 ms  DeleteObjects: 0.430200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 56062.874558 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.013857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.215837 seconds.
-  path: Assets/Blank.unity
-  artifactKey: Guid(8cf9c88fbbc44ea418d02477e0671d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blank.unity using Guid(8cf9c88fbbc44ea418d02477e0671d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24185127a50d92e246e88032d5613c8a') in 0.005346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.559785 seconds.
-  path: Assets/Tutorial
-  artifactKey: Guid(869f0675ba4ef894c9da6655e804fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tutorial using Guid(869f0675ba4ef894c9da6655e804fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19edbd16ee38d374549fe33f79bd576d') in 0.006462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.055301 seconds.
-  path: Assets/Tutorial/Ball.prefab
-  artifactKey: Guid(6d02e726f845805438b2e654fac8230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tutorial/Ball.prefab using Guid(6d02e726f845805438b2e654fac8230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d74d3c22d6a25a1d7e5ddef8c1cfbb') in 1.734029 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009413 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\GubaJ\Coding Projects\DiverInterfaces2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\GubaJ\Coding Projects\DiverInterfaces2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.285 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1286ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1048ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (342ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (435ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (238ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (299ms)
 				ProcessInitializeOnLoadMethodAttributes (83ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 5.70 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 6263 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (0.8 MB). Loaded Objects now: 6959.
-Memory consumption went from 250.9 MB to 250.1 MB.
-Total: 3.883400 ms (FindLiveObjects: 0.521100 ms CreateObjectMapping: 0.482000 ms MarkObjects: 2.520300 ms  DeleteObjects: 0.359000 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6485 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (436.4 KB). Loaded Objects now: 6921.
+Memory consumption went from 262.4 MB to 262.0 MB.
+Total: 3.463000 ms (FindLiveObjects: 0.457500 ms CreateObjectMapping: 0.433700 ms MarkObjects: 2.361900 ms  DeleteObjects: 0.209200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -250,28 +168,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.129258 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f33001e61b96e1ee80af89351c2fd9') in 0.037917 seconds 
+  Time since last request: 355216.865706 seconds.
+  path: Assets/Diving Simulation/Scenes/MainMenu.unity
+  artifactKey: Guid(96f48a0db78902c4c9550ca59502e855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diving Simulation/Scenes/MainMenu.unity using Guid(96f48a0db78902c4c9550ca59502e855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf527e50b6d5e6aefbb5c12b310d2e2') in 0.014544 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Settings/URP-HighFidelity.asset
-  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e034af0bc13de21932d85eeaa5ab7bb1') in 0.014758 seconds 
+  Time since last request: 411.685636 seconds.
+  path: Assets/Diving Simulation/Materials/Bubble.mat
+  artifactKey: Guid(6d4bcca014b31ea40a443da7b05f0c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diving Simulation/Materials/Bubble.mat using Guid(6d4bcca014b31ea40a443da7b05f0c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8b79df84a02145974d204ad84b2cdf') in 0.574430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.761085 seconds.
+  path: Assets/Oculus/Interaction/Samples/Audio/Prefabs/BasicRayHoverAudio.prefab
+  artifactKey: Guid(539d637ec1110d44982e443b95b5a61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Audio/Prefabs/BasicRayHoverAudio.prefab using Guid(539d637ec1110d44982e443b95b5a61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec7fcf2a6f2e9cd2ed27f98efd59e57') in 0.024968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/Oculus/Interaction/Samples/Audio/Prefabs/DistanceGrabHoverAudio.prefab
+  artifactKey: Guid(13264d633d3544946b062a9df1e2e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Audio/Prefabs/DistanceGrabHoverAudio.prefab using Guid(13264d633d3544946b062a9df1e2e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd545ec13cf08c01b8bf31dd728beeba') in 0.018503 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Settings/URP-HighFidelity-Renderer.asset
-  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a22a657266648a4aab0479c58889a9c') in 0.011054 seconds 
+  path: Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Textures/OCUI_24_Filled_2x.png
+  artifactKey: Guid(7f186a9ac091755489927d745be0185a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Textures/OCUI_24_Filled_2x.png using Guid(7f186a9ac091755489927d745be0185a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7877e9c0230f63e59f7315da4939f00') in 1.626623 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Settings/URP-Balanced.asset
-  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a9950e90583a03862def518e5b94bd') in 0.011261 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_L.prefab
+  artifactKey: Guid(c6a74181d4000004887343fb87b3c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_L.prefab using Guid(c6a74181d4000004887343fb87b3c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ec765dbfab0543f403aadcd74be658') in 0.035178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_R.prefab
+  artifactKey: Guid(e201a24a09e942042b93390d0444d728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRCustomHandPrefab_R.prefab using Guid(e201a24a09e942042b93390d0444d728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bbf3b67d759625ddc7970dc9df5121') in 0.025020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab
+  artifactKey: Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab using Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f53ee4b9e97c3dc78abf639a3d08180') in 0.013489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Oculus/Interaction/Samples/Prefabs/InteractionRigOVR-Basic.prefab
+  artifactKey: Guid(c89b2c4e711f8a14ba3df7e4b3c71f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Prefabs/InteractionRigOVR-Basic.prefab using Guid(c89b2c4e711f8a14ba3df7e4b3c71f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6379d4cfb6e8f97ebadc3f57e8975ae') in 9.773965 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
