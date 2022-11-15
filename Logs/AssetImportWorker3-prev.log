@@ -1,23 +1,30 @@
+Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16314 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/GubaJ/Coding Projects/DiverInterfaces2022
+/Users/jasonguba/cmsc203/DiverInterfaces2022
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-55594
-Successfully changed project path to: C:/Users/GubaJ/Coding Projects/DiverInterfaces2022
-C:/Users/GubaJ/Coding Projects/DiverInterfaces2022
+57550
+Successfully changed project path to: /Users/jasonguba/cmsc203/DiverInterfaces2022
+/Users/jasonguba/cmsc203/DiverInterfaces2022
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,370 +54,205 @@ C:/Users/GubaJ/Coding Projects/DiverInterfaces2022
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 268.16 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.52 ms.
+Refreshing native plugins compatible for Editor in 203.36 ms, found 5 plugins.
+Plugins: Couldn't open Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.61 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/GubaJ/Coding Projects/DiverInterfaces2022/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
-    Vendor:   NVIDIA
-    VRAM:     8079 MB
-    Driver:   30.0.15.1165
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56151
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005164 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 215.81 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004664 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 170.38 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.42 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.867 seconds
+- Completed reload, in  1.048 seconds
 Domain Reload Profiling:
-	ReloadAssembly (868ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (1048ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (649ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (146ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (111ms)
+			SetupTypeCache (165ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (455ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (491ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (216ms)
+				InitializePlatformSupportModulesInManaged (154ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (171ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012157 seconds.
+Registered in 0.018342 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\GubaJ\Coding Projects\DiverInterfaces2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\GubaJ\Coding Projects\DiverInterfaces2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 154.34 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 164.04 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.38 ms.
 Package Manager log level set to [2]
-[XR] OculusXRPlugin: registering subsystems
-[XR] Unable to register display lifecyle provider: [1]
-[XR] Oculus Input lifecycle provider registered.
-[XR] Unable to register input lifecyle provider: [1]
-[XR] OVRP version 1.78.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.724 seconds
+- Completed reload, in  2.202 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1725ms)
-		BeginReloadAssembly (110ms)
+	ReloadAssembly (2202ms)
+		BeginReloadAssembly (285ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1432ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (155ms)
+		EndReloadAssembly (1751ms)
+			LoadAssemblies (291ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (361ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (804ms)
+			SetupTypeCache (465ms)
+			ReleaseScriptCaches (9ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (831ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (154ms)
-				BeforeProcessingInitializeOnLoad (129ms)
-				ProcessInitializeOnLoadAttributes (399ms)
-				ProcessInitializeOnLoadMethodAttributes (108ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (164ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (404ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 2.10 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 6485 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (436.5 KB). Loaded Objects now: 6921.
-Memory consumption went from 262.5 MB to 262.0 MB.
-Total: 6.912900 ms (FindLiveObjects: 0.532500 ms CreateObjectMapping: 0.632600 ms MarkObjects: 4.469900 ms  DeleteObjects: 1.276300 ms)
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.46 ms.
+Unloading 6486 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (494.5 KB). Loaded Objects now: 6923.
+Memory consumption went from 402.5 MB to 402.0 MB.
+Total: 16.870519 ms (FindLiveObjects: 0.666615 ms CreateObjectMapping: 0.566824 ms MarkObjects: 14.806476 ms  DeleteObjects: 0.828905 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 355726.772824 seconds.
-  path: Assets/Resources/OVRBuildConfig.asset
-  artifactKey: Guid(5dcc34b54300a3c45a411486383e3a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/OVRBuildConfig.asset using Guid(5dcc34b54300a3c45a411486383e3a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca07d32382483825cfd05b8ecc7cdb51') in 0.051841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Oculus/Interaction/Samples/Audio/Content/Interaction_DistanceGrab_Unhover.wav
-  artifactKey: Guid(313d3ca4b490fdd4db2f077f19fb883c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Audio/Content/Interaction_DistanceGrab_Unhover.wav using Guid(313d3ca4b490fdd4db2f077f19fb883c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d29230d1cca61830e4aa46c464d1e88') in 0.166340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab
-  artifactKey: Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab using Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e672bd22525cbacc0cbec94f75f38bc') in 7.656067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15166.334914 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuho1.png
-  artifactKey: Guid(43ad51e043491b94d8f6c62d55ac5ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuho1.png using Guid(43ad51e043491b94d8f6c62d55ac5ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22c76bab967ca20c8574ce832b0195e') in 0.090848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.870359 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuho3.png
-  artifactKey: Guid(9e9474494461bd048803b48e391ef0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuho3.png using Guid(9e9474494461bd048803b48e391ef0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1f54872b3456a612c4097ef9309439') in 0.031494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas2.png
-  artifactKey: Guid(5955491dc8dcecb4a993d9a008cf65a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhochristmas2.png using Guid(5955491dc8dcecb4a993d9a008cf65a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a0885be080ddf4ddaabdddf39d237a') in 0.028805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe1.png
-  artifactKey: Guid(f2901efd8bb16bc408ad37f017fbf9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe1.png using Guid(f2901efd8bb16bc408ad37f017fbf9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c25b84845bb6b4ef10c11837a513e8') in 0.028930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe2.png
-  artifactKey: Guid(17035c204825f6340a252046ab6476fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshe2.png using Guid(17035c204825f6340a252046ab6476fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e47d92ab238ae111990e56a731981a0') in 0.026452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.433590 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshechristmas2.png
-  artifactKey: Guid(7fd3cda14282bb7429b8eeb6c121e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshechristmas2.png using Guid(7fd3cda14282bb7429b8eeb6c121e5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f34ffcc88df7ab0add0485dd87e38f') in 0.026965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024162 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedlocal.png
-  artifactKey: Guid(0c6a2a64ca9f9c946a7dbbd1674cf5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedlocal.png using Guid(0c6a2a64ca9f9c946a7dbbd1674cf5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5b4275840ce2347b1348f42b73ccef') in 0.051621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003445 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay@2x.png
-  artifactKey: Guid(a6fbd5a181bc51e42a61a73fe8d727c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay@2x.png using Guid(a6fbd5a181bc51e42a61a73fe8d727c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73ad145ebe41e4fe78e8b59afd6a8f0') in 0.033457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay.png
-  artifactKey: Guid(4da274d970a82a943ae3979e7833f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay.png using Guid(4da274d970a82a943ae3979e7833f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3a6f4101f2cba2f04d27db185110f7') in 0.037387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay@2x.png
-  artifactKey: Guid(92b204cca46037444ab18ba6701f86f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay@2x.png using Guid(92b204cca46037444ab18ba6701f86f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c281134a3a99ff214767760ae531ed') in 0.035763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictresolvedoverlay.png
-  artifactKey: Guid(056ee72c467a4e24d87541d42839ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictresolvedoverlay.png using Guid(056ee72c467a4e24d87541d42839ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63285eaceffb6f63cfaff7d26a73abd') in 0.032346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconbranch.png
-  artifactKey: Guid(612c5e166a121e3449dad067fbdc37a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconbranch.png using Guid(612c5e166a121e3449dad067fbdc37a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caceb1e45f4d28fffad1f0e48953d7a2') in 0.028161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconcheckedoutlocaloverlay@2x.png
-  artifactKey: Guid(8d98ab6168c3e91439339f1908b8fe97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconcheckedoutlocaloverlay@2x.png using Guid(8d98ab6168c3e91439339f1908b8fe97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20829ddc0351324e30a9b6ab2a576cfa') in 0.027784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconclosebutton@2x.png
-  artifactKey: Guid(0525793900d728a42936791a8a6de63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconclosebutton@2x.png using Guid(0525793900d728a42936791a8a6de63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b69c429936fe58dd9518b98a2e37f8') in 0.022347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay.png
-  artifactKey: Guid(73d124bf77e463c45942d14136745d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay.png using Guid(73d124bf77e463c45942d14136745d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dc7dd0b81663f90b3e3cf1a4e5a812') in 0.028066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremote.png
-  artifactKey: Guid(23e66f7264c74424889342127f229577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremote.png using Guid(23e66f7264c74424889342127f229577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4158ec7ab410bf27863182f9b215df72') in 0.021083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.150834 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremoteoverlay.png
-  artifactKey: Guid(3de8a0634e55df8499c88204001cb0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremoteoverlay.png using Guid(3de8a0634e55df8499c88204001cb0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcb0fb6e112c7589c3e02bd89f62c40') in 0.023236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.020223 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar.png
-  artifactKey: Guid(9aebd705574f9e642aef1e5f59b3e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar.png using Guid(9aebd705574f9e642aef1e5f59b3e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a03144217b01385580c73fced75b41') in 0.025774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.520568 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedlocaloverlay.png
-  artifactKey: Guid(71c45f80bffdb9145ad2c456254c862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedlocaloverlay.png using Guid(71c45f80bffdb9145ad2c456254c862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6623c06fc14b71095ab9e4b0e6d54a5d') in 0.032237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.450406 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedremoteoverlay.png
-  artifactKey: Guid(1046ed65e6aaffb4391378f6d08d6c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedremoteoverlay.png using Guid(1046ed65e6aaffb4391378f6d08d6c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab29b0c23413a0e9863cb2afc238eb73') in 0.021787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.711937 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsync.png
-  artifactKey: Guid(0e80bd0b4a8196f46acf73711b9505ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsync.png using Guid(0e80bd0b4a8196f46acf73711b9505ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2cb771c36df2d48dc958bbc1253762') in 0.022121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.017596 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsyncoverlay.png
-  artifactKey: Guid(dc633de6e6e7415448c7568418239a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsyncoverlay.png using Guid(dc633de6e6e7415448c7568418239a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e818c1700f07f19396b33d31ccda31e7') in 0.019571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.015052 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticnotifyconflict.png
-  artifactKey: Guid(51582ae5ea51fa14996791a550f89473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticnotifyconflict.png using Guid(51582ae5ea51fa14996791a550f89473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1447343803fa2d6e1122ca41725f0cf') in 0.020374 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011037 seconds.
+Registered in 0.003173 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\GubaJ\Coding Projects\DiverInterfaces2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\GubaJ\Coding Projects\DiverInterfaces2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 5.36 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.91 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.505 seconds
+- Completed reload, in  2.127 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1505ms)
-		BeginReloadAssembly (156ms)
+	ReloadAssembly (2128ms)
+		BeginReloadAssembly (258ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1243ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (471ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (485ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (1726ms)
+			LoadAssemblies (249ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (585ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (754ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (44ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (279ms)
-				ProcessInitializeOnLoadMethodAttributes (92ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (429ms)
+				ProcessInitializeOnLoadMethodAttributes (160ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 11.38 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 6266 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (397.4 KB). Loaded Objects now: 6997.
-Memory consumption went from 253.2 MB to 252.8 MB.
-Total: 5.639600 ms (FindLiveObjects: 0.493800 ms CreateObjectMapping: 0.476900 ms MarkObjects: 4.468500 ms  DeleteObjects: 0.199400 ms)
+Refreshing native plugins compatible for Editor in 7.77 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.64 ms.
+Unloading 6260 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (472.8 KB). Loaded Objects now: 6927.
+Memory consumption went from 387.9 MB to 387.5 MB.
+Total: 9.950782 ms (FindLiveObjects: 0.710429 ms CreateObjectMapping: 0.870732 ms MarkObjects: 8.021135 ms  DeleteObjects: 0.347052 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 491.044236 seconds.
-  path: Assets/Oculus/SampleFramework/Core/DebugUI/Textures/header.png
-  artifactKey: Guid(eee045d55647138479b30e687b81c7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Textures/header.png using Guid(eee045d55647138479b30e687b81c7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10b3a6e09ed0b6c2ee2241dfab41951') in 0.263843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_over.png
-  artifactKey: Guid(d573cef9968bac840a82613c16823a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_over.png using Guid(d573cef9968bac840a82613c16823a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee047e9e8e606cf8418ad2d97c331e7') in 0.044085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.027853 seconds.
-  path: Assets/Oculus/SampleFramework/Core/DebugUI/Textures/separator.png
-  artifactKey: Guid(99e2846e72f06dc4fb23e772dca82743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Textures/separator.png using Guid(99e2846e72f06dc4fb23e772dca82743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f4c288f7cfeecd9c51c59235135fe0') in 0.032036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000690 seconds.
-  path: Assets/Oculus/SampleFramework/Core/DebugUI/Textures/slider_bar.png
-  artifactKey: Guid(71df6d228f4ab4245b9791d80663baa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Textures/slider_bar.png using Guid(71df6d228f4ab4245b9791d80663baa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7dc38a2925780d840ff14faceec4ac') in 0.031204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_off.png
-  artifactKey: Guid(9a7a1aee5662d8e439db9465d2c3e3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_off.png using Guid(9a7a1aee5662d8e439db9465d2c3e3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e2f003a8dc87c7f0068f46d3c7b62b') in 0.025614 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
