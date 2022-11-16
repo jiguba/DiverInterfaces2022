@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.07214585, g: 0.1337567, b: 0.20241955, a: 1}
+  m_IndirectSpecularColor: {r: 0.07228676, g: 0.13347714, b: 0.20269677, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -754,7 +754,7 @@ GameObject:
   - component: {fileID: 47813796}
   - component: {fileID: 47813795}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: B0Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -800,7 +800,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -956,7 +956,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter text...
+  m_text: Enter 4 Digit Frequency!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6675,7 +6675,7 @@ GameObject:
   - component: {fileID: 285389687}
   - component: {fileID: 285389686}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: B3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6760,7 +6760,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 285389688}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2146885242}
+        m_TargetAssemblyTypeName: NumberPad, Assembly-CSharp
+        m_MethodName: b3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &285389688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8327,7 +8339,7 @@ GameObject:
   - component: {fileID: 366401758}
   - component: {fileID: 366401757}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: B2Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8373,7 +8385,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: '2
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8802,7 +8816,7 @@ GameObject:
   - component: {fileID: 380516422}
   - component: {fileID: 380516421}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: B9Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8848,7 +8862,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 9
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10193,7 +10207,7 @@ GameObject:
   - component: {fileID: 411518108}
   - component: {fileID: 411518107}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: B6Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10239,7 +10253,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: '6
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11594,7 +11610,7 @@ GameObject:
   - component: {fileID: 456845985}
   - component: {fileID: 456845984}
   m_Layer: 5
-  m_Name: Button (12)
+  m_Name: BDelete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11679,7 +11695,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 456845986}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2146885242}
+        m_TargetAssemblyTypeName: NumberPad, Assembly-CSharp
+        m_MethodName: bDelete
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &456845986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12443,7 +12471,7 @@ GameObject:
   - component: {fileID: 501099857}
   - component: {fileID: 501099856}
   m_Layer: 5
-  m_Name: Button (7)
+  m_Name: B9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12528,7 +12556,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 501099858}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2146885242}
+        m_TargetAssemblyTypeName: NumberPad, Assembly-CSharp
+        m_MethodName: b9
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &501099858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14869,7 +14909,7 @@ GameObject:
   - component: {fileID: 628407732}
   - component: {fileID: 628407731}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: B5Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14915,7 +14955,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: '5
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15519,7 +15561,7 @@ GameObject:
   - component: {fileID: 645627118}
   - component: {fileID: 645627117}
   m_Layer: 5
-  m_Name: Button (6)
+  m_Name: B8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15604,7 +15646,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 645627119}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2146885242}
+        m_TargetAssemblyTypeName: NumberPad, Assembly-CSharp
+        m_MethodName: b8
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &645627119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17801,7 +17855,7 @@ GameObject:
   - component: {fileID: 757650813}
   - component: {fileID: 757650812}
   m_Layer: 5
-  m_Name: Button (5)
+  m_Name: B7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17886,7 +17940,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 757650814}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2146885242}
+        m_TargetAssemblyTypeName: NumberPad, Assembly-CSharp
+        m_MethodName: b7
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &757650814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19356,7 +19422,7 @@ GameObject:
   - component: {fileID: 834453002}
   - component: {fileID: 834453001}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: BCallText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20961,7 +21027,7 @@ GameObject:
   - component: {fileID: 890798973}
   - component: {fileID: 890798972}
   m_Layer: 5
-  m_Name: Button
+  m_Name: B2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21046,7 +21112,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 890798974}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2146885242}
+        m_TargetAssemblyTypeName: NumberPad, Assembly-CSharp
+        m_MethodName: b2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &890798974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24728,7 +24806,7 @@ GameObject:
   - component: {fileID: 1045682095}
   - component: {fileID: 1045682094}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: B4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24813,7 +24891,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1045682096}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2146885242}
+        m_TargetAssemblyTypeName: NumberPad, Assembly-CSharp
+        m_MethodName: b4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1045682096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24955,7 +25045,7 @@ GameObject:
   - component: {fileID: 1053453541}
   - component: {fileID: 1053453540}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: B3Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25001,7 +25091,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -26005,7 +26095,7 @@ GameObject:
   - component: {fileID: 1097868362}
   - component: {fileID: 1097868361}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: B7Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26051,7 +26141,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 7
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -26506,7 +26596,7 @@ GameObject:
   - component: {fileID: 1110895239}
   - component: {fileID: 1110895238}
   m_Layer: 5
-  m_Name: Button (8)
+  m_Name: B0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26591,7 +26681,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1110895240}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2146885242}
+        m_TargetAssemblyTypeName: NumberPad, Assembly-CSharp
+        m_MethodName: b0
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1110895240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31565,7 +31667,7 @@ GameObject:
   - component: {fileID: 1317418956}
   - component: {fileID: 1317418955}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: BClearText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31702,7 +31804,7 @@ GameObject:
   - component: {fileID: 1318858595}
   - component: {fileID: 1318858594}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: B5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31787,7 +31889,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1318858596}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2146885242}
+        m_TargetAssemblyTypeName: NumberPad, Assembly-CSharp
+        m_MethodName: b5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1318858596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33389,7 +33503,7 @@ GameObject:
   - component: {fileID: 1399639755}
   - component: {fileID: 1399639754}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: B8Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33435,7 +33549,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 8
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -35711,7 +35825,7 @@ GameObject:
   - component: {fileID: 1482183754}
   - component: {fileID: 1482183753}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: B1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36825,7 +36939,7 @@ GameObject:
   - component: {fileID: 1548076334}
   - component: {fileID: 1548076333}
   m_Layer: 5
-  m_Name: Button
+  m_Name: B1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36910,7 +37024,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1548076335}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2146885242}
+        m_TargetAssemblyTypeName: NumberPad, Assembly-CSharp
+        m_MethodName: b1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1548076335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40466,7 +40592,7 @@ GameObject:
   - component: {fileID: 1701244745}
   - component: {fileID: 1701244744}
   m_Layer: 5
-  m_Name: Button (4)
+  m_Name: B6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40551,7 +40677,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1701244746}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2146885242}
+        m_TargetAssemblyTypeName: NumberPad, Assembly-CSharp
+        m_MethodName: b6
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1701244746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44312,7 +44450,7 @@ GameObject:
   - component: {fileID: 1822235049}
   - component: {fileID: 1822235048}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: B4Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44358,7 +44496,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -46091,7 +46229,7 @@ GameObject:
   - component: {fileID: 1900424090}
   - component: {fileID: 1900424089}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: BDeleteText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46282,7 +46420,7 @@ GameObject:
   - component: {fileID: 1902520626}
   - component: {fileID: 1902520625}
   m_Layer: 5
-  m_Name: Button (11)
+  m_Name: BClear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46367,7 +46505,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1902520627}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2146885242}
+        m_TargetAssemblyTypeName: NumberPad, Assembly-CSharp
+        m_MethodName: bClear
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1902520627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49125,7 +49275,7 @@ GameObject:
   - component: {fileID: 2031456136}
   - component: {fileID: 2031456137}
   m_Layer: 5
-  m_Name: Text Area
+  m_Name: InputDisplayText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49185,7 +49335,7 @@ GameObject:
   - component: {fileID: 2036224358}
   - component: {fileID: 2036224357}
   m_Layer: 5
-  m_Name: Text
+  m_Name: InputText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49870,7 +50020,7 @@ GameObject:
   - component: {fileID: 2056825073}
   - component: {fileID: 2056825072}
   m_Layer: 5
-  m_Name: InputField (TMP)
+  m_Name: InputDisplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51012,7 +51162,7 @@ GameObject:
   - component: {fileID: 2099170487}
   - component: {fileID: 2099170486}
   m_Layer: 5
-  m_Name: Button (9)
+  m_Name: BCall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52486,6 +52636,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2146885241}
+  - component: {fileID: 2146885242}
   m_Layer: 5
   m_Name: NumberPad
   m_TagString: Untagged
@@ -52527,6 +52678,32 @@ RectTransform:
   m_AnchoredPosition: {x: 73.9, y: 12}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2146885242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146885240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59aa3f98c18254a8ba81c24a908e7d63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputHolder: {fileID: 2056825072}
+  button1: {fileID: 1548076331}
+  button2: {fileID: 890798970}
+  button3: {fileID: 285389684}
+  button4: {fileID: 1045682092}
+  button5: {fileID: 1318858592}
+  button6: {fileID: 1701244742}
+  button7: {fileID: 757650810}
+  button8: {fileID: 645627115}
+  button9: {fileID: 501099854}
+  button0: {fileID: 1110895236}
+  buttonClear: {fileID: 1902520623}
+  buttonDelete: {fileID: 456845982}
+  input: 
 --- !u!114 &3446047718321850704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52649,7 +52826,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3446047718551889976}
   m_LocalRotation: {x: -0, y: -0.23364809, z: -0, w: 0.9723213}
-  m_LocalPosition: {x: 139, y: 24, z: 714.4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

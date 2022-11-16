@@ -1,0 +1,2076 @@
+Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/jasonguba/cmsc203/DiverInterfaces2022
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56338
+Successfully changed project path to: /Users/jasonguba/cmsc203/DiverInterfaces2022
+/Users/jasonguba/cmsc203/DiverInterfaces2022
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 289.59 ms, found 5 plugins.
+Plugins: Couldn't open Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.88 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56733
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.005773 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 170.72 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.45 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.104 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1105ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (799ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (512ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (152ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (171ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017319 seconds.
+Android Extension - Scanning For ADB Devices 4206 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 157.77 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.45 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  2.172 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2173ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1775ms)
+			LoadAssemblies (327ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (507ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (807ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (158ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (392ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.44 ms.
+Unloading 6493 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (487.0 KB). Loaded Objects now: 6930.
+Memory consumption went from 401.5 MB to 401.1 MB.
+Total: 5.038559 ms (FindLiveObjects: 0.568945 ms CreateObjectMapping: 0.419691 ms MarkObjects: 3.621638 ms  DeleteObjects: 0.427180 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003205 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.50 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.73 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.023 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2023ms)
+		BeginReloadAssembly (312ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (1535ms)
+			LoadAssemblies (226ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (528ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (662ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.38 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.42 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.2 KB). Loaded Objects now: 6934.
+Memory consumption went from 387.2 MB to 386.7 MB.
+Total: 5.132648 ms (FindLiveObjects: 0.580894 ms CreateObjectMapping: 0.492700 ms MarkObjects: 3.699806 ms  DeleteObjects: 0.358004 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004083 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.51 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.894 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1895ms)
+		BeginReloadAssembly (369ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (173ms)
+		EndReloadAssembly (1403ms)
+			LoadAssemblies (301ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (459ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (564ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.91 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.40 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.3 KB). Loaded Objects now: 6938.
+Memory consumption went from 387.5 MB to 387.0 MB.
+Total: 4.988072 ms (FindLiveObjects: 0.565835 ms CreateObjectMapping: 0.509231 ms MarkObjects: 3.589013 ms  DeleteObjects: 0.323046 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003302 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.39 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.53 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1810ms)
+		BeginReloadAssembly (355ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (151ms)
+		EndReloadAssembly (1324ms)
+			LoadAssemblies (265ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (464ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.98 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.42 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (465.6 KB). Loaded Objects now: 6942.
+Memory consumption went from 387.7 MB to 387.3 MB.
+Total: 5.589620 ms (FindLiveObjects: 0.666935 ms CreateObjectMapping: 0.678319 ms MarkObjects: 3.908940 ms  DeleteObjects: 0.334278 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003151 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.42 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.422 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1423ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1153ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (100ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.79 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.42 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.3 KB). Loaded Objects now: 6946.
+Memory consumption went from 388.0 MB to 387.6 MB.
+Total: 4.508601 ms (FindLiveObjects: 0.516339 ms CreateObjectMapping: 0.418848 ms MarkObjects: 3.238033 ms  DeleteObjects: 0.334313 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003267 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.52 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.614 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1616ms)
+		BeginReloadAssembly (264ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (145ms)
+		EndReloadAssembly (1231ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (533ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.07 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.57 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.3 KB). Loaded Objects now: 6950.
+Memory consumption went from 388.3 MB to 387.9 MB.
+Total: 7.508346 ms (FindLiveObjects: 0.958534 ms CreateObjectMapping: 0.742825 ms MarkObjects: 5.352305 ms  DeleteObjects: 0.453120 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003759 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.45 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.500 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1501ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (1200ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (438ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.22 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.43 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.2 KB). Loaded Objects now: 6954.
+Memory consumption went from 388.6 MB to 388.1 MB.
+Total: 4.790968 ms (FindLiveObjects: 0.523250 ms CreateObjectMapping: 0.424697 ms MarkObjects: 3.529071 ms  DeleteObjects: 0.312830 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003215 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.02 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.54 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1784ms)
+		BeginReloadAssembly (323ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (136ms)
+		EndReloadAssembly (1338ms)
+			LoadAssemblies (262ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (450ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (529ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.74 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.41 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.1 KB). Loaded Objects now: 6958.
+Memory consumption went from 388.9 MB to 388.4 MB.
+Total: 8.747520 ms (FindLiveObjects: 1.562631 ms CreateObjectMapping: 0.706914 ms MarkObjects: 5.987247 ms  DeleteObjects: 0.488051 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003246 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.45 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.552 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1553ms)
+		BeginReloadAssembly (230ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (1201ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (434ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.34 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.51 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.3 KB). Loaded Objects now: 6962.
+Memory consumption went from 389.2 MB to 388.7 MB.
+Total: 6.283641 ms (FindLiveObjects: 0.675907 ms CreateObjectMapping: 0.567552 ms MarkObjects: 4.564652 ms  DeleteObjects: 0.473823 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003250 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.78 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1991ms)
+		BeginReloadAssembly (322ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (1543ms)
+			LoadAssemblies (260ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (638ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (560ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (100ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.49 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.43 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.4 KB). Loaded Objects now: 6966.
+Memory consumption went from 389.5 MB to 389.0 MB.
+Total: 5.711846 ms (FindLiveObjects: 0.764543 ms CreateObjectMapping: 0.656838 ms MarkObjects: 3.886373 ms  DeleteObjects: 0.401850 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003786 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.45 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1595ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1256ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (424ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (533ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.90 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.41 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.4 KB). Loaded Objects now: 6970.
+Memory consumption went from 389.7 MB to 389.3 MB.
+Total: 5.174166 ms (FindLiveObjects: 0.727519 ms CreateObjectMapping: 0.488648 ms MarkObjects: 3.608381 ms  DeleteObjects: 0.348188 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007662 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.41 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.461 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1461ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1204ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (418ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (551ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (330ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.90 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.42 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.1 KB). Loaded Objects now: 6974.
+Memory consumption went from 390.0 MB to 389.6 MB.
+Total: 5.497776 ms (FindLiveObjects: 0.495944 ms CreateObjectMapping: 0.486356 ms MarkObjects: 4.160595 ms  DeleteObjects: 0.353847 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003690 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.96 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.46 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.732 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1734ms)
+		BeginReloadAssembly (312ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (1303ms)
+			LoadAssemblies (261ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (418ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (547ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (100ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.27 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.04 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.2 KB). Loaded Objects now: 6978.
+Memory consumption went from 390.3 MB to 389.9 MB.
+Total: 7.700649 ms (FindLiveObjects: 0.764274 ms CreateObjectMapping: 0.630566 ms MarkObjects: 5.765513 ms  DeleteObjects: 0.538833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003593 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.44 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1444ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1175ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (410ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (535ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (101ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.98 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.94 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (465.5 KB). Loaded Objects now: 6982.
+Memory consumption went from 390.6 MB to 390.1 MB.
+Total: 5.013127 ms (FindLiveObjects: 0.554156 ms CreateObjectMapping: 0.633551 ms MarkObjects: 3.522619 ms  DeleteObjects: 0.301579 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003956 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.91 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.813 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1814ms)
+		BeginReloadAssembly (353ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (166ms)
+		EndReloadAssembly (1335ms)
+			LoadAssemblies (245ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (458ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (552ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.57 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.42 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.3 KB). Loaded Objects now: 6986.
+Memory consumption went from 390.9 MB to 390.4 MB.
+Total: 7.246185 ms (FindLiveObjects: 0.857055 ms CreateObjectMapping: 0.720299 ms MarkObjects: 5.169038 ms  DeleteObjects: 0.497598 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003142 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.43 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.398 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1399ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1137ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (400ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (509ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.58 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.42 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.3 KB). Loaded Objects now: 6990.
+Memory consumption went from 391.2 MB to 390.7 MB.
+Total: 4.933958 ms (FindLiveObjects: 0.538683 ms CreateObjectMapping: 0.554066 ms MarkObjects: 3.517816 ms  DeleteObjects: 0.322350 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003424 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.54 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.948 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1949ms)
+		BeginReloadAssembly (342ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (1486ms)
+			LoadAssemblies (282ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (534ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (561ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.45 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.43 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.4 KB). Loaded Objects now: 6994.
+Memory consumption went from 391.4 MB to 391.0 MB.
+Total: 4.994408 ms (FindLiveObjects: 0.539791 ms CreateObjectMapping: 0.414144 ms MarkObjects: 3.668195 ms  DeleteObjects: 0.370809 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003558 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.43 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.417 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1418ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1139ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (391ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (512ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.22 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.41 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (465.6 KB). Loaded Objects now: 6998.
+Memory consumption went from 391.7 MB to 391.3 MB.
+Total: 5.485046 ms (FindLiveObjects: 0.675444 ms CreateObjectMapping: 0.617719 ms MarkObjects: 3.850934 ms  DeleteObjects: 0.339776 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003210 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.56 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.819 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1820ms)
+		BeginReloadAssembly (302ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (1392ms)
+			LoadAssemblies (260ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (440ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (573ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.81 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.66 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.2 KB). Loaded Objects now: 7002.
+Memory consumption went from 392.0 MB to 391.6 MB.
+Total: 8.868348 ms (FindLiveObjects: 1.220235 ms CreateObjectMapping: 1.157747 ms MarkObjects: 6.063803 ms  DeleteObjects: 0.424999 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003273 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.54 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.762 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1763ms)
+		BeginReloadAssembly (349ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (156ms)
+		EndReloadAssembly (1291ms)
+			LoadAssemblies (259ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (434ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (526ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.66 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.44 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.4 KB). Loaded Objects now: 7006.
+Memory consumption went from 392.3 MB to 391.8 MB.
+Total: 5.164516 ms (FindLiveObjects: 0.538697 ms CreateObjectMapping: 0.437455 ms MarkObjects: 3.841204 ms  DeleteObjects: 0.346074 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003278 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.45 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.498 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1499ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1221ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (445ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.15 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.48 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.5 KB). Loaded Objects now: 7010.
+Memory consumption went from 392.6 MB to 392.2 MB.
+Total: 7.358935 ms (FindLiveObjects: 0.730194 ms CreateObjectMapping: 0.742013 ms MarkObjects: 5.331680 ms  DeleteObjects: 0.553740 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005879 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.19 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.81 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.530 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1531ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1210ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (406ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (551ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.79 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.93 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.3 KB). Loaded Objects now: 7014.
+Memory consumption went from 392.9 MB to 392.5 MB.
+Total: 6.829764 ms (FindLiveObjects: 1.034250 ms CreateObjectMapping: 0.770122 ms MarkObjects: 4.619484 ms  DeleteObjects: 0.404641 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003250 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.61 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.087 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2089ms)
+		BeginReloadAssembly (349ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (143ms)
+		EndReloadAssembly (1612ms)
+			LoadAssemblies (256ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (586ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (680ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (424ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 11.02 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 2.59 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.3 KB). Loaded Objects now: 7018.
+Memory consumption went from 393.2 MB to 392.7 MB.
+Total: 8.355640 ms (FindLiveObjects: 0.817254 ms CreateObjectMapping: 0.863946 ms MarkObjects: 5.983860 ms  DeleteObjects: 0.688763 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011063 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.52 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.939 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1940ms)
+		BeginReloadAssembly (348ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (156ms)
+		EndReloadAssembly (1462ms)
+			LoadAssemblies (272ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (492ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (582ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (330ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.18 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.75 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.4 KB). Loaded Objects now: 7022.
+Memory consumption went from 393.5 MB to 393.0 MB.
+Total: 11.878479 ms (FindLiveObjects: 1.087361 ms CreateObjectMapping: 0.521678 ms MarkObjects: 9.867073 ms  DeleteObjects: 0.400056 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007255 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.44 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.668 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1669ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1404ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (430ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (694ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (399ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.35 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.13 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.3 KB). Loaded Objects now: 7026.
+Memory consumption went from 393.8 MB to 393.3 MB.
+Total: 6.484646 ms (FindLiveObjects: 0.640932 ms CreateObjectMapping: 0.597927 ms MarkObjects: 4.732149 ms  DeleteObjects: 0.511982 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003298 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.45 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.770 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1771ms)
+		BeginReloadAssembly (297ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (1347ms)
+			LoadAssemblies (240ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (475ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (536ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.60 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.43 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.3 KB). Loaded Objects now: 7030.
+Memory consumption went from 394.0 MB to 393.6 MB.
+Total: 5.070207 ms (FindLiveObjects: 0.757372 ms CreateObjectMapping: 0.502420 ms MarkObjects: 3.451067 ms  DeleteObjects: 0.357998 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003725 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 1.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.585 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1586ms)
+		BeginReloadAssembly (219ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (1249ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (429ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (566ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.89 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.44 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.3 KB). Loaded Objects now: 7034.
+Memory consumption went from 394.3 MB to 393.9 MB.
+Total: 8.168719 ms (FindLiveObjects: 1.530007 ms CreateObjectMapping: 0.892082 ms MarkObjects: 5.269792 ms  DeleteObjects: 0.475506 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003229 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.45 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.837 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1838ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1465ms)
+			LoadAssemblies (251ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (544ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (560ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.02 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.42 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (465.6 KB). Loaded Objects now: 7038.
+Memory consumption went from 394.6 MB to 394.2 MB.
+Total: 5.649930 ms (FindLiveObjects: 0.590250 ms CreateObjectMapping: 0.426523 ms MarkObjects: 4.140664 ms  DeleteObjects: 0.491095 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003634 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.43 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.474 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1474ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (1195ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (436ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (524ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.69 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.40 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.4 KB). Loaded Objects now: 7042.
+Memory consumption went from 394.9 MB to 394.4 MB.
+Total: 5.105625 ms (FindLiveObjects: 0.586026 ms CreateObjectMapping: 0.544576 ms MarkObjects: 3.592087 ms  DeleteObjects: 0.382112 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010199 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/jasonguba/cmsc203/DiverInterfaces2022/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.97 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.54 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.133 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2136ms)
+		BeginReloadAssembly (371ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (175ms)
+		EndReloadAssembly (1618ms)
+			LoadAssemblies (279ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (558ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (655ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (143ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.90 ms, found 5 plugins.
+Plugins: Couldn't open /Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: '@rpath/libthird-party_pffft_pffft.dylib'
+  Referenced from: '/Users/jasonguba/cmsc203/DiverInterfaces2022/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer'
+  Reason: tried: '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/../Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file)
+Preloading 1 native plugins for Editor in 0.45 ms.
+Unloading 6267 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (473.5 KB). Loaded Objects now: 7046.
+Memory consumption went from 395.2 MB to 394.7 MB.
+Total: 5.741309 ms (FindLiveObjects: 0.589093 ms CreateObjectMapping: 0.436531 ms MarkObjects: 4.205132 ms  DeleteObjects: 0.509197 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
